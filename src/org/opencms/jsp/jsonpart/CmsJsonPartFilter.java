@@ -59,6 +59,7 @@ import org.apache.commons.logging.Log;
 
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * This servlet filter post-processes the response output for requests with the parameter '__json=true'.<p>

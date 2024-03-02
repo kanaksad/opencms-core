@@ -73,6 +73,7 @@ import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Sets;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /** The class provides methods to automatically export modules from OpenCms and check in the exported,
  *  unzipped modules into some git repository.
@@ -83,16 +84,16 @@ import com.google.common.collect.Sets;
 public class CmsGitCheckin { 
 
     /** The log file for the git check in. */
-    private static final String DEFAULT_LOGFILE_PATH = OpenCms.getSystemInfo().getWebInfRfsPath() + "logs/git.log";
+    private static final @RUntainted String DEFAULT_LOGFILE_PATH = OpenCms.getSystemInfo().getWebInfRfsPath() + "logs/git.log";
     /** The variable under which the export path is set. */
     /** The default path to the script. */
     private static final String DEFAULT_RFS_PATH = OpenCms.getSystemInfo().getWebInfRfsPath() + "git-scripts/";
     /** The default folder for configuration files. */
-    private static final String DEFAULT_CONFIG_FOLDER = DEFAULT_RFS_PATH + "config/";
+    private static final @RUntainted String DEFAULT_CONFIG_FOLDER = DEFAULT_RFS_PATH + "config/";
     /** The default script file used for the git check in. */
     private static final String DEFAULT_SCRIPT_FILE = DEFAULT_RFS_PATH + "module-checkin.sh";
     /** The default configuration file used for the git check in. */
-    private static final String DEFAULT_CONFIG_FILE = DEFAULT_RFS_PATH + "module-checkin.conf";
+    private static final @RUntainted String DEFAULT_CONFIG_FILE = DEFAULT_RFS_PATH + "module-checkin.conf";
     /** Logger instance for this class. */
     private static final Log LOG = CmsLog.getLog(CmsGitCheckin.class);
     /** Lock used to prevent simultaneous execution of checkIn method. */
@@ -172,7 +173,7 @@ public class CmsGitCheckin {
      *
      * @throws Exception if something goes wrong
      */
-    public static void zipRfsFolder(final File root, final OutputStream zipOutput) throws Exception {
+    public static void zipRfsFolder(final @RUntainted File root, final OutputStream zipOutput) throws Exception {
 
         final ZipOutputStream zip = new ZipOutputStream(zipOutput);
         try {
@@ -917,7 +918,7 @@ public class CmsGitCheckin {
             } else {
                 commandParam = checkinScriptCommand();
             }
-            String[] cmd = {"bash", "-c", commandParam};
+            @RUntainted String[] cmd = {"bash", "-c", commandParam};
             m_logStream.println("Calling the script as follows:");
             m_logStream.println();
             m_logStream.println(cmd[0] + " " + cmd[1] + " " + cmd[2]);

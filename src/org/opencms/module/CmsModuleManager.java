@@ -66,6 +66,7 @@ import java.util.Optional;
 import java.util.Set;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Manages the modules of an OpenCms installation.<p>
@@ -250,7 +251,7 @@ public class CmsModuleManager {
      *
      * @throws CmsConfigurationException if something goes wrong
      */
-    public static Map<CmsModule, String> getAllModulesFromPath(String rfsAbsPath) throws CmsConfigurationException {
+    public static Map<CmsModule, String> getAllModulesFromPath(@RUntainted String rfsAbsPath) throws CmsConfigurationException {
 
         Map<CmsModule, String> modules = new HashMap<CmsModule, String>();
         if (rfsAbsPath == null) {

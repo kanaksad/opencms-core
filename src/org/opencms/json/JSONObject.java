@@ -64,6 +64,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * A JSONObject is an unordered collection of name/value pairs. Its
@@ -510,7 +512,7 @@ public class JSONObject {
      * @return a String
      * @throws JSONException if n is a non-finite number
      */
-    public static String numberToString(Number n) throws JSONException {
+    public static @RPolyTainted String numberToString(@RPolyTainted Number n) throws JSONException {
 
         if (n == null) {
             throw new JSONException("Null pointer");
@@ -542,7 +544,7 @@ public class JSONObject {
      * @param string a String
      * @return  a String correctly formatted for insertion in a JSON text
      */
-    public static String quote(String string) {
+    public static @RPolyTainted String quote(@RPolyTainted String string) {
 
         if ((string == null) || (string.length() == 0)) {
             return "\"\"";
@@ -625,7 +627,7 @@ public class JSONObject {
      * @throws JSONException if the value is or contains an invalid number
      */
     @SuppressWarnings("unchecked")
-    public static String valueToString(Object value) throws JSONException {
+    public static @RPolyTainted String valueToString(@RPolyTainted Object value) throws JSONException {
 
         if ((value == null) || value.equals(null)) {
             return "null";
@@ -1422,7 +1424,7 @@ public class JSONObject {
      *  with <code>}</code>&nbsp;<small>(right brace)</small>.
      */
     @Override
-    public String toString() {
+    public @RUntainted String toString() {
 
         try {
             Iterator<String> keys = keys();

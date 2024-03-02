@@ -60,6 +60,7 @@ import java.util.List;
 import java.util.Set;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Abstract base implementation for the <code>{@link I_CmsStaticExportHandler}</code> interface.<p>
@@ -317,7 +318,7 @@ public abstract class A_CmsStaticExportHandler implements I_CmsStaticExportHandl
      * @param rfsFilePath the path of the RFS file to delete
      * @param vfsName the VFS name of the file to delete (required for logging)
      */
-    protected void purgeFile(String rfsFilePath, String vfsName) {
+    protected void purgeFile(@RUntainted String rfsFilePath, String vfsName) {
 
         File rfsFile = new File(rfsFilePath);
 
@@ -488,7 +489,7 @@ public abstract class A_CmsStaticExportHandler implements I_CmsStaticExportHandl
      * @param file the file to delete
      * @param vfsName the VFS name of the file (required for logging)
      */
-    private void deleteFile(File file, String vfsName) {
+    private void deleteFile(@RUntainted File file, String vfsName) {
 
         try {
             if (file.exists() && file.canWrite()) {

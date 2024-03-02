@@ -34,6 +34,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Appends benchmark samples to a file.
@@ -44,7 +45,7 @@ public class CmsFileBenchmarkReceiver implements CmsBenchmarkTable.Receiver {
     private static final Log LOG = CmsLog.getLog(CmsFileBenchmarkReceiver.class);
 
     /** The target file path. */
-    private String m_path;
+    private @RUntainted String m_path;
 
     /** The benchmark group. */
     private String m_group;

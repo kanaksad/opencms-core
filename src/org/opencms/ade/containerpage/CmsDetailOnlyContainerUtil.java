@@ -66,6 +66,8 @@ import javax.servlet.ServletRequest;
 import org.apache.commons.logging.Log;
 
 import com.google.common.base.Optional;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Static utility class for functions related to detail-only containers.<p>

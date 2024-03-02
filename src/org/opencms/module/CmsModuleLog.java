@@ -39,6 +39,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * This class is responsible for reading and writing module import/export log messages, to be used by CmsResourceWrapperModules.
@@ -94,7 +95,7 @@ public class CmsModuleLog {
      *
      * @return the log file
      */
-    public File getLogFile(String moduleName) {
+    public File getLogFile(@RUntainted String moduleName) {
 
         return new File(
             OpenCms.getSystemInfo().getAbsoluteRfsPathRelativeToWebInf("packages/_modulelogs/" + moduleName + ".log"));

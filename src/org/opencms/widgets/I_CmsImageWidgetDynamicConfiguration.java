@@ -31,6 +31,7 @@ import org.opencms.file.CmsObject;
 import org.opencms.i18n.CmsMessages;
 
 import java.util.List;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Enables a dynamic configuration of values for the {@link CmsVfsImageWidget}.<p>

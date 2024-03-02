@@ -39,6 +39,8 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.Properties;
 import java.util.TreeMap;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Provides access to system wide "read only" information about the running OpenCms instance.<p>
@@ -250,7 +252,7 @@ public class CmsSystemInfo {
      * @param path the path (relative) to generate an absolute path from
      * @return an absolute path (to a directory or a file) from a path relative to the web application folder of OpenCms
      */
-    public String getAbsoluteRfsPathRelativeToWebApplication(String path) {
+    public @RPolyTainted String getAbsoluteRfsPathRelativeToWebApplication(@RPolyTainted String path) {
 
         if ((path == null) || (getWebApplicationRfsPath() == null)) {
             return null;
@@ -278,7 +280,7 @@ public class CmsSystemInfo {
      * @param path the path (relative) to generate an absolute path from
      * @return an absolute path (to a directory or a file) from a path relative to the "WEB-INF" folder
      */
-    public String getAbsoluteRfsPathRelativeToWebInf(String path) {
+    public @RPolyTainted String getAbsoluteRfsPathRelativeToWebInf(@RUntainted String path) {
 
         if (path == null) {
             return null;
@@ -456,7 +458,7 @@ public class CmsSystemInfo {
      *
      * @return the filename of the log file (in the "real" file system)
      */
-    public String getLogFileRfsPath() {
+    public @RUntainted String getLogFileRfsPath() {
 
         return CmsLog.getLogFileRfsPath();
     }
@@ -516,7 +518,7 @@ public class CmsSystemInfo {
      * @see #getContextPath()
      * @see #getServletPath()
      */
-    public String getOpenCmsContext() {
+    public @RUntainted String getOpenCmsContext() {
 
         return m_servletContainerSettings.getOpenCmsContext();
     }
@@ -526,7 +528,7 @@ public class CmsSystemInfo {
      *
      * @return the absolute path to the "packages" folder
      */
-    public String getPackagesRfsPath() {
+    public @RUntainted String getPackagesRfsPath() {
 
         if (m_packagesRfsPath == null) {
             m_packagesRfsPath = getAbsoluteRfsPathRelativeToWebInf(CmsSystemInfo.FOLDER_PACKAGES);
@@ -688,7 +690,7 @@ public class CmsSystemInfo {
      *
      * @return the OpenCms web application folder in the servlet container
      */
-    public String getWebApplicationRfsPath() {
+    public @RUntainted String getWebApplicationRfsPath() {
 
         return m_servletContainerSettings.getWebApplicationRfsPath();
     }
@@ -698,7 +700,7 @@ public class CmsSystemInfo {
      *
      * @return the OpenCms web application "WEB-INF" directory path
      */
-    public String getWebInfRfsPath() {
+    public @RUntainted String getWebInfRfsPath() {
 
         return m_servletContainerSettings.getWebInfRfsPath();
     }

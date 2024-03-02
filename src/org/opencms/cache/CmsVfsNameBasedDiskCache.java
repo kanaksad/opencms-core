@@ -37,6 +37,7 @@ import java.io.UnsupportedEncodingException;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Implements a name based RFS file based disk cache, that handles parameter based versions of VFS files.<p>
@@ -81,7 +82,7 @@ public class CmsVfsNameBasedDiskCache {
      *
      * @return the content of the requested file in the disk cache, or <code>null</code>
      */
-    public byte[] getCacheContent(String rfsName) {
+    public byte[] getCacheContent(@RUntainted String rfsName) {
 
         try {
             File f = new File(rfsName);
@@ -164,7 +165,7 @@ public class CmsVfsNameBasedDiskCache {
      *
      * @return <code>true</code> if the file is available
      */
-    public boolean hasCacheContent(String rfsName) {
+    public boolean hasCacheContent(@RUntainted String rfsName) {
 
         File f = new File(rfsName);
         if (f.exists()) {

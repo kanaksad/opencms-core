@@ -48,6 +48,7 @@ import javax.servlet.jsp.PageContext;
 
 import com.google.gwt.user.client.rpc.SerializationException;
 import com.google.gwt.user.server.rpc.RPC;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Sitemap action used to generate the sitemap editor.<p>

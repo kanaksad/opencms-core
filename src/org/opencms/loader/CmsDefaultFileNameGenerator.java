@@ -49,6 +49,8 @@ import java.util.Set;
 
 import org.apache.commons.collections.Factory;
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * The default class used for generating file names either for the <code>urlName</code> mapping

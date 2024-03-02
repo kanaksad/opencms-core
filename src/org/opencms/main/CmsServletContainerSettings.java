@@ -38,6 +38,7 @@ import java.net.URL;
 import javax.servlet.ServletContext;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Stores specific servlet container options, that might influence OpenCms behavior.<p>
@@ -199,7 +200,7 @@ public class CmsServletContainerSettings {
     private String m_webApplicationRfsPath;
 
     /** The OpenCms web application "WEB-INF" path (in the "real" file system). */
-    private String m_webInfRfsPath;
+    private @RUntainted String m_webInfRfsPath;
 
     /**
      * Creates a new object.<p>

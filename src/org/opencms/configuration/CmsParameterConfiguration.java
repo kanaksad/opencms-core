@@ -50,6 +50,8 @@ import java.util.StringTokenizer;
 import java.util.TreeMap;
 
 import org.dom4j.Element;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Provides convenient access to configuration parameters.<p>
@@ -777,7 +779,7 @@ public class CmsParameterConfiguration extends AbstractMap<String, String> imple
      * @param other the other parameter configuration to merge this configuration with
      */
     @Override
-    public void putAll(Map<? extends String, ? extends String> other) {
+    public void putAll(Map<? extends String, ? extends @RUntainted @RUntainted @RUntainted String> other) {
 
         for (String key : other.keySet()) {
             boolean tokenize = false;

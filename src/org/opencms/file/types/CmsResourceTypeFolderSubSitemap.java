@@ -32,6 +32,7 @@ import org.opencms.file.CmsResource;
 
 import java.util.ArrayList;
 import java.util.List;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Resource type descriptor for sub site map folder types.<p>

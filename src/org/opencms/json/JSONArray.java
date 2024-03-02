@@ -60,6 +60,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Map;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * A JSONArray is an ordered sequence of values. Its external text form is a
@@ -906,7 +907,7 @@ public class JSONArray {
      * @return a printable, displayable, transmittable representation of the array
      */
     @Override
-    public String toString() {
+    public @RUntainted String toString() {
 
         try {
             return '[' + join(",") + ']';

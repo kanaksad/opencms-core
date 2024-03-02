@@ -106,6 +106,7 @@ import java.util.Set;
 import java.util.StringTokenizer;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Provides additional commands for the CmsShell.<p>
@@ -1797,7 +1798,7 @@ class CmsShellCommands implements I_CmsShellCommands {
      *
      * @throws NumberFormatException if the sleepMillis parameter is not a valid number
      */
-    public void sleep(String sleepMillis) throws NumberFormatException {
+    public void sleep(@RUntainted String sleepMillis) throws NumberFormatException {
 
         try {
             Thread.sleep(Long.parseLong(sleepMillis));
@@ -1996,7 +1997,7 @@ class CmsShellCommands implements I_CmsShellCommands {
      *         <code>folder</code> and <code>localfile</code> is of length 0
      *
      */
-    public CmsResource uploadFile(String localfile, String folder, String filename, String type)
+    public CmsResource uploadFile(@RUntainted String localfile, String folder, String filename, String type)
     throws Exception, CmsIllegalArgumentException {
 
         I_CmsResourceType t = OpenCms.getResourceManager().getResourceType(type);

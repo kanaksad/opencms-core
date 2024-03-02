@@ -37,6 +37,7 @@ import org.opencms.main.OpenCms;
 import org.opencms.workplace.editors.CmsWorkplaceEditorManager;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * The acacia XML content editor.<p>

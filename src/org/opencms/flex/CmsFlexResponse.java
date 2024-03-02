@@ -54,6 +54,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpServletResponseWrapper;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Wrapper class for a HttpServletResponse, required in order to process JSPs from the OpenCms VFS.<p>
@@ -332,7 +333,7 @@ public class CmsFlexResponse extends HttpServletResponseWrapper {
             while (i.hasNext()) {
                 Map.Entry<String, List<String>> entry = i.next();
                 String key = entry.getKey();
-                List<String> l = entry.getValue();
+                List<@RUntainted String> l = entry.getValue();
                 for (int j = 0; j < l.size(); j++) {
                     if ((j == 0) && ((l.get(0)).startsWith(SET_HEADER))) {
                         String s = l.get(0);
@@ -434,7 +435,7 @@ public class CmsFlexResponse extends HttpServletResponseWrapper {
      * @see javax.servlet.http.HttpServletResponse#addHeader(java.lang.String, java.lang.String)
      */
     @Override
-    public void addHeader(String name, String value) {
+    public void addHeader(@RUntainted String name, @RUntainted String value) {
 
         if (isSuspended()) {
             return;
@@ -653,7 +654,7 @@ public class CmsFlexResponse extends HttpServletResponseWrapper {
      *
      * @throws IOException if IO operations on the response fail
      */
-    public void sendRedirect(String location, boolean permanent) throws IOException {
+    public void sendRedirect(@RUntainted String location, boolean permanent) throws IOException {
 
         // Ignore any redirects after the first one
         if (isSuspended() && (!location.equals(m_bufferRedirect))) {
@@ -750,7 +751,7 @@ public class CmsFlexResponse extends HttpServletResponseWrapper {
      * @see javax.servlet.http.HttpServletResponse#setHeader(java.lang.String, java.lang.String)
      */
     @Override
-    public void setHeader(String name, String value) {
+    public void setHeader(@RUntainted String name, String value) {
 
         if (isSuspended()) {
             return;

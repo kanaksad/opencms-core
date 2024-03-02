@@ -26,6 +26,7 @@
  */
 
 package org.opencms.importexport;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Import parameters.<p>
@@ -75,7 +76,7 @@ public class CmsImportParameters {
      *
      * @return the file path
      */
-    public String getPath() {
+    public @RUntainted String getPath() {
 
         return m_path;
     }

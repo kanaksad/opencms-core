@@ -33,6 +33,7 @@ import org.opencms.util.CmsStringUtil;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Implements a RFS file based disk cache, that handles parameter based versions of VFS files,
@@ -69,7 +70,7 @@ public class CmsVfsDiskCache {
      *
      * @throws IOException in case of disk access errors
      */
-    public static File saveFile(String rfsName, byte[] content) throws IOException {
+    public static File saveFile(@RUntainted String rfsName, @RUntainted byte[] content) throws IOException {
 
         File f = new File(rfsName);
         File p = f.getParentFile();
@@ -93,7 +94,7 @@ public class CmsVfsDiskCache {
      *
      * @return the content of the requested file in the VFS disk cache, or <code>null</code>
      */
-    public byte[] getCacheContent(String rfsName, long dateLastModified) {
+    public byte[] getCacheContent(@RUntainted String rfsName, long dateLastModified) {
 
         dateLastModified = simplifyDateLastModified(dateLastModified);
         try {

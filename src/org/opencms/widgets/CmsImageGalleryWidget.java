@@ -28,6 +28,7 @@
 package org.opencms.widgets;
 
 import org.opencms.util.CmsStringUtil;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Provides a widget that allows access to the available OpenCms image galleries, for use on a widget dialog.<p>

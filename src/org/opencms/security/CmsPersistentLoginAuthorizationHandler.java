@@ -38,6 +38,7 @@ import org.opencms.util.CmsRequestUtil;
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Authorization handler which uses a special cookie sent by the user's browser for authorization.<p>

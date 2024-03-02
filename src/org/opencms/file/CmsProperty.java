@@ -43,6 +43,8 @@ import java.util.Map;
 import java.util.RandomAccess;
 
 import org.apache.commons.collections.Transformer;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Represents a property (meta-information) mapped to a VFS resource.<p>

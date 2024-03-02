@@ -88,6 +88,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Provides the functionality to export resources from the OpenCms VFS
@@ -260,13 +262,13 @@ public class CmsStaticExportManager implements I_CmsEventListener {
     private boolean m_staticExportEnabled;
 
     /** The path to where the static export will be written. */
-    private String m_staticExportPath;
+    private @RUntainted String m_staticExportPath;
 
     /** The path to where the static export will be written without the complete rfs path. */
     private String m_staticExportPathConfigured;
 
     /** The path to where the static export will be written during the static export process. */
-    private String m_staticExportWorkPath;
+    private @RUntainted String m_staticExportWorkPath;
 
     /** The path to where the static export will be written during the static export process without the complete rfs path. */
     private String m_staticExportWorkPathConfigured;
@@ -1055,7 +1057,7 @@ public class CmsStaticExportManager implements I_CmsEventListener {
      * @see #getRfsPrefix(String)
      * @see #getVfsPrefix()
      */
-    public String getExportPath(String vfsName) {
+    public @RUntainted String getExportPath(String vfsName) {
 
         if (vfsName != null) {
             Iterator<CmsStaticExportRfsRule> it = m_rfsRules.iterator();
@@ -2751,7 +2753,7 @@ public class CmsStaticExportManager implements I_CmsEventListener {
       *
       * @return <code>true</code> if the String is not <code>null</code> and a valid URL
       */
-    protected boolean isValidURL(String inputString) {
+    protected boolean isValidURL(@RUntainted String inputString) {
 
         boolean isValid = false;
         try {
@@ -2948,7 +2950,7 @@ public class CmsStaticExportManager implements I_CmsEventListener {
         String exportPath,
         String rfsName,
         CmsResource resource,
-        byte[] content)
+        @RUntainted byte[] content)
     throws CmsException {
 
         String exportFileName = CmsFileUtil.normalizePath(exportPath + rfsName);

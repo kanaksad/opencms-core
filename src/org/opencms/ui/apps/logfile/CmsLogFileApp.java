@@ -85,6 +85,7 @@ import com.vaadin.ui.Window;
 import com.vaadin.ui.Window.CloseEvent;
 import com.vaadin.ui.Window.CloseListener;
 import com.vaadin.ui.themes.ValoTheme;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Main class of Log management app.<p>
@@ -92,7 +93,7 @@ import com.vaadin.ui.themes.ValoTheme;
 public class CmsLogFileApp extends A_CmsWorkplaceApp implements I_CmsCRUDApp<Logger> {
 
     /**Log folder path.*/
-    protected static final String LOG_FOLDER =
+    protected static final @RUntainted String LOG_FOLDER =
             OpenCms.getSystemInfo().getLogFileRfsFolder() == null ?
                     "" : OpenCms.getSystemInfo().getLogFileRfsFolder();
 

@@ -44,6 +44,8 @@ import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Import helper.<p>
@@ -271,7 +273,7 @@ public class CmsImportHelper {
      *
      * @return the RFS folder to import from
      */
-    public File getFolder() {
+    public @RUntainted File getFolder() {
 
         return m_folder;
     }
@@ -323,7 +325,7 @@ public class CmsImportHelper {
      * @param filename name of the file
      * @return the file.
      */
-    protected File getFile(String filename) {
+    protected File getFile(@RUntainted String filename) {
 
         return new File(getFolder(), filename);
     }

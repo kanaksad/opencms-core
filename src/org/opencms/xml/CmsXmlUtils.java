@@ -66,6 +66,8 @@ import org.xml.sax.SAXNotRecognizedException;
 import org.xml.sax.SAXNotSupportedException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Provides some basic XML handling utilities.<p>
@@ -931,7 +933,7 @@ public final class CmsXmlUtils {
      *
      * @throws CmsXmlException if the validation fails
      */
-    public static void validateXmlStructure(InputStream xmlStream, EntityResolver resolver) throws CmsXmlException {
+    public static void validateXmlStructure(@RUntainted InputStream xmlStream, EntityResolver resolver) throws CmsXmlException {
 
         XMLReader reader;
         try {

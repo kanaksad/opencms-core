@@ -54,6 +54,7 @@ import java.util.Map;
 import java.util.Objects;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Abstract base class for search indexes. It provides default implementations that should fit most use
@@ -413,7 +414,7 @@ public abstract class A_CmsSearchIndex implements I_CmsSearchIndex {
     /**
      * @see org.opencms.search.I_CmsSearchIndex#getName()
      */
-    public String getName() {
+    public @RUntainted String getName() {
 
         return m_name;
     }

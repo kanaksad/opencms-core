@@ -30,6 +30,7 @@ package org.opencms.configuration.preferences;
 import org.opencms.file.CmsObject;
 import org.opencms.main.OpenCms;
 import org.opencms.xml.content.CmsXmlContentProperty;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Workplace mode preference configuration.<p>

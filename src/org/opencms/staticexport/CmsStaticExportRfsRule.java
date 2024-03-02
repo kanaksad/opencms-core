@@ -36,6 +36,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Help class for storing of rfs-rules.<p>
@@ -183,7 +185,7 @@ public class CmsStaticExportRfsRule {
      *
      * @return the rfs export Path
      */
-    public String getExportPath() {
+    public @RUntainted String getExportPath() {
 
         if (OpenCms.getStaticExportManager().isUseTempDir() && OpenCms.getStaticExportManager().isFullStaticExport()) {
             return getExportWorkPath();
@@ -206,7 +208,7 @@ public class CmsStaticExportRfsRule {
      *
      * @return the rfs export Work Path
      */
-    public String getExportWorkPath() {
+    public @RUntainted String getExportWorkPath() {
 
         return m_exportWorkPath;
     }
@@ -235,7 +237,7 @@ public class CmsStaticExportRfsRule {
      *
      * @return the rfs name for the given locale
      */
-    public String getLocalizedRfsName(String rfsName, String fileSeparator) {
+    public @RPolyTainted String getLocalizedRfsName(@RPolyTainted String rfsName, @RPolyTainted String fileSeparator) {
 
         String locRfsName = null;
 
@@ -252,7 +254,7 @@ public class CmsStaticExportRfsRule {
      *
      * @return the name
      */
-    public String getName() {
+    public @RUntainted String getName() {
 
         return m_name;
     }

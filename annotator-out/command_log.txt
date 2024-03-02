@@ -1,0 +1,490 @@
+2024-02-27T17:55:35.686659:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T18:10:22.627029:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T18:24:37.691805:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T18:39:22.153279:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T18:52:58.811453:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T19:07:14.130459:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T19:20:54.423731:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T19:35:37.535591:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T19:52:09.810933:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T20:05:47.009022:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T20:19:28.374962:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T20:34:05.369486:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T20:46:48.033908:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T21:00:39.203053:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T21:14:10.390874:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T21:27:10.315331:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T21:39:26.855582:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T21:52:43.936063:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T22:06:21.308263:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T22:19:14.676887:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T22:33:00.664086:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T22:45:36.855269:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T22:58:56.795557:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T23:12:34.128870:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T23:24:56.503111:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T23:37:39.511292:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-27T23:50:16.533159:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T00:03:45.940741:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T00:16:06.426758:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T00:29:20.965410:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T00:42:12.651939:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T00:55:58.712173:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T01:08:31.934393:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T01:21:06.828061:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T01:33:17.008537:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T01:45:34.775213:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T01:59:02.129783:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T02:12:10.817997:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T02:27:41.946240:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T02:40:05.483716:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T02:52:34.289209:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T03:06:50.143765:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T03:20:54.336374:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T03:35:08.012649:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T03:49:33.308956:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T04:05:58.431221:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T04:20:03.490543:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T04:34:59.687110:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T04:49:35.879669:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T05:03:38.013508:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T05:18:18.281446:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T05:33:22.474946:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T05:46:29.500075:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T05:59:30.625980:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T06:12:29.220798:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T06:25:48.004377:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T06:39:08.843856:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T06:54:05.128060:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T07:07:41.354926:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T07:21:45.129878:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T07:37:27.307770:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T07:52:16.494555:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T08:07:08.705604:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T08:22:01.736907:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T08:38:02.150:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T08:52:55.904714:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T09:09:22.347671:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T09:24:54.536802:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T09:40:09.298967:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T09:56:50.800797:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T10:12:02.750247:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T10:25:57.273720:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T10:41:10.351796:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T10:55:36.146276:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T11:10:37.762102:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T11:26:09.471291:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T11:44:12.639561:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T11:58:56.411353:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T12:13:04.429454:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T12:28:55.400741:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T12:44:07.862164:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T13:00:17.539992:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T13:15:23.658410:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T13:29:22.849345:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T13:46:26.254067:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T14:02:13.470600:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T14:19:19.397722:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T14:34:15.949829:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T14:51:13.435767:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T15:05:50.050311:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T15:21:36.269102:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T15:36:51.208589:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T15:51:12.964370:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T16:07:02.783755:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T16:22:27.828023:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T16:37:55.864752:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T16:53:50.992527:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T17:09:06.858626:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T17:26:55.478307:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T17:41:25.415007:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T17:55:54.538183:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T18:10:11.059305:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T18:25:07.412167:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T18:41:08.862167:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T18:57:37.906961:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T19:12:58.128320:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T19:28:54.521154:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T19:43:38.800973:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T19:59:02.859802:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T20:14:11.397514:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T20:29:36.245766:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T20:45:39.465479:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T21:00:29.012746:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T21:14:55.143171:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T21:29:49.139373:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T21:44:49.979214:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T21:59:14.796406:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T22:14:11.600424:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T22:30:42.845427:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T22:46:14.732119:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T23:01:33.789931:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T23:15:52.098741:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T23:31:58.063420:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-28T23:47:14.341749:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T00:01:25.614996:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T00:15:21.933463:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T00:30:57.724549:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T00:46:06.137157:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T01:00:30.104681:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T01:15:10.542522:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T01:30:29.471308:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T01:44:53.636290:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T01:58:35.215356:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T02:13:52.036657:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T02:28:11.225479:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T02:42:42.341023:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T02:57:12.270826:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T03:10:47.411228:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T03:24:12.284530:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T03:37:51.589214:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T03:51:05.857291:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T04:05:02.733147:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T04:18:41.319588:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T04:32:00.093835:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T04:46:07.656201:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T04:59:25.203807:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T05:13:04.328703:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T05:27:05.110755:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T05:40:12.784734:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T05:53:45.942512:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T06:08:20.758812:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T06:21:41.049746:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T06:36:03.314578:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T06:51:17.789709:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T07:04:40.931857:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T07:20:33.743559:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T07:34:27.672589:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T07:49:20.432601:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T08:03:46.545189:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T08:19:01.797289:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T08:34:41.321088:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T08:49:47.115684:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T09:05:30.808218:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T09:21:57.076327:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T09:37:15.259446:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T09:53:18.224665:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T10:08:55.621055:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T10:23:47.279751:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T10:38:33.095593:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T10:52:15.339426:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T11:08:18.363821:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T11:22:53.703349:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T11:38:22.546538:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T11:52:52.453918:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T12:10:03.213458:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T12:25:27.031129:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T12:42:38.893229:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T12:59:17.862114:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T13:13:54.530457:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T13:28:45.497875:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T13:45:13.977897:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T14:00:55.932876:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T14:16:55.340530:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T14:31:14.913744:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T14:47:07.132655:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T15:02:04.151333:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T15:17:20.968605:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T15:33:14.677216:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T15:50:03.370269:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T16:05:32.708446:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T16:20:11.582666:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T16:34:01.783460:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T16:47:50.819787:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T17:03:41.473396:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T17:18:36.846562:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T17:32:22.325424:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T17:48:43.843358:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T18:03:43.122539:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T18:18:16.199454:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T18:32:40.515865:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T18:46:54.315298:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T19:00:25.738108:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T19:14:03.519220:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T19:28:06.890163:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T19:41:45.227906:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T19:58:19.281994:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T20:12:57.988151:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T20:27:09.328185:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T20:40:29.999887:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T20:54:15.257865:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T21:08:41.607833:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T21:22:59.212922:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T21:38:08.754254:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T21:53:20.857754:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:08:40.124795:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:23:41.800489:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:37:36.417591:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:50:44.807643:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:51:12.122265:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:51:31.493457:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:51:52.782136:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:52:13.634854:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:52:40.535995:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:53:06.245857:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:53:28.880296:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:53:46.703327:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:54:08.022578:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:54:30.998135:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:54:52.422172:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:55:14.555816:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:55:28.336156:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:55:41.681246:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:55:58.005652:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:56:14.232486:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:56:27.309999:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:56:44.569001:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:57:07.169346:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:57:34.922532:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:58:02.396239:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:58:22.367900:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:58:43.507028:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:59:04.896005:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:59:29.489685:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T22:59:52.363558:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+
+2024-02-29T23:00:04.143680:cd /home/kdas006/annotation_dataset/opencms-core && ./annotator-command.sh
+

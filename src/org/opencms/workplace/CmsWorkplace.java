@@ -80,6 +80,8 @@ import javax.servlet.jsp.PageContext;
 import org.apache.commons.collections.Buffer;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Master class for the JSP based workplace which provides default methods and
@@ -2117,7 +2119,7 @@ public abstract class CmsWorkplace {
      * @param location the location the response is redirected to
      * @throws IOException in case redirection fails
      */
-    public void sendCmsRedirect(String location) throws IOException {
+    public void sendCmsRedirect(@RUntainted String location) throws IOException {
 
         // TOOD: IBM Websphere v5 has problems here, use forward instead (which has other problems)
         getJsp().getResponse().sendRedirect(OpenCms.getSystemInfo().getOpenCmsContext() + location);

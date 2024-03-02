@@ -35,6 +35,7 @@ import org.opencms.acacia.shared.CmsValidationResult;
 import java.util.List;
 
 import com.google.gwt.user.client.rpc.RemoteService;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * The content service used to load and persist entity and type information.<p>

@@ -36,6 +36,7 @@ import org.opencms.main.CmsException;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * A default resource collector that supports flexible sorting based on resource dates.<p>

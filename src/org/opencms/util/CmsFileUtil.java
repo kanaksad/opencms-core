@@ -63,6 +63,8 @@ import java.util.Locale;
 
 import org.apache.commons.collections.Closure;
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Provides File utility functions.<p>
@@ -149,7 +151,7 @@ public final class CmsFileUtil {
      * @param path the path to add the trailing separator to
      * @return the path with a trailing separator
      */
-    public static String addTrailingSeparator(String path) {
+    public static @RPolyTainted String addTrailingSeparator(@RPolyTainted String path) {
 
         int l = path.length();
         if ((l == 0) || (path.charAt(l - 1) != '/')) {
@@ -197,7 +199,7 @@ public final class CmsFileUtil {
      * @param toFile the name of the target file
      * @throws IOException if any IO error occurs during the copy operation
      */
-    public static void copy(String fromFile, String toFile) throws IOException {
+    public static void copy(@RUntainted String fromFile, @RUntainted String toFile) throws IOException {
 
         File inputFile = new File(fromFile);
         File outputFile = new File(toFile);
@@ -208,7 +210,7 @@ public final class CmsFileUtil {
         FileOutputStream out = new FileOutputStream(outputFile);
 
         // transfer bytes from in to out
-        byte[] buf = new byte[1024];
+        @RUntainted byte[] buf = new byte[1024];
         int len;
         while ((len = in.read(buf)) > 0) {
             out.write(buf, 0, len);
@@ -380,7 +382,7 @@ public final class CmsFileUtil {
      *
      * @return a list of filtered <code>{@link File}</code> objects
      */
-    public static List<File> getFiles(String name, FileFilter filter, boolean includeSubtree) {
+    public static List<File> getFiles(@RUntainted String name, FileFilter filter, boolean includeSubtree) {
 
         List<File> ret = new ArrayList<File>();
 
@@ -462,7 +464,7 @@ public final class CmsFileUtil {
      *
      * @see #normalizePath(String, char)
      */
-    public static String normalizePath(String path) {
+    public static @RPolyTainted String normalizePath(@RPolyTainted String path) {
 
         return normalizePath(path, File.separatorChar);
     }
@@ -479,7 +481,7 @@ public final class CmsFileUtil {
      *
      * @return the normalized path
      */
-    public static String normalizePath(String path, char separatorChar) {
+    public static @RPolyTainted String normalizePath(@RPolyTainted String path, @RPolyTainted char separatorChar) {
 
         if (CmsStringUtil.isNotEmpty(path)) {
 
@@ -547,7 +549,7 @@ public final class CmsFileUtil {
      *
      * @return the normalized file path created from the given URL
      */
-    public static String normalizePath(URL url, char separatorChar) {
+    public static String normalizePath(@RUntainted URL url, char separatorChar) {
 
         // get the path part from the URL
         String path = new File(url.getPath()).getAbsolutePath();
@@ -882,7 +884,7 @@ public final class CmsFileUtil {
      *
      * @return String the path of the 'WEB-INF' folder in the 'real' file system, or <code>null</code>
      */
-    public static String searchWebInfFolder(String startFolder) {
+    public static String searchWebInfFolder(@RUntainted String startFolder) {
 
         if (CmsStringUtil.isEmpty(startFolder)) {
             return null;

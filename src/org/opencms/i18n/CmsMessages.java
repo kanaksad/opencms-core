@@ -40,6 +40,8 @@ import java.util.ResourceBundle;
 import java.util.function.Function;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Reads localized resource Strings from a <code>java.util.ResourceBundle</code>

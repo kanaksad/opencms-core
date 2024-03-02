@@ -30,6 +30,7 @@ package org.opencms.widgets;
 import org.opencms.file.CmsObject;
 
 import java.util.Map;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Describes an editor widget for use in the OpenCms workplace.<p>

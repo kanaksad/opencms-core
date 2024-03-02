@@ -34,6 +34,7 @@ import org.opencms.xml.content.CmsXmlContentProperty;
 
 import java.util.Collection;
 import java.util.Locale;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Element view preference configuration.<p>

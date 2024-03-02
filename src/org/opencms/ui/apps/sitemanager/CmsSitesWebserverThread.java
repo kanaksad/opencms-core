@@ -56,6 +56,8 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.logging.Log;
 
 import org.antlr.stringtemplate.StringTemplate;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Executes a script file.<p>
@@ -80,16 +82,16 @@ public class CmsSitesWebserverThread extends A_CmsReportThread {
     private String m_loggingDir;
 
     /** The script path. */
-    private String m_scriptPath;
+    private @RUntainted String m_scriptPath;
 
     /** The template to be used for secure site configurations. */
-    private String m_secureTemplate;
+    private @RUntainted String m_secureTemplate;
 
     /** The target path. */
-    private String m_targetPath;
+    private @RUntainted String m_targetPath;
 
     /** The template path. */
-    private String m_templatePath;
+    private @RUntainted String m_templatePath;
 
     /** The files that have been written. */
     private List<String> m_writtenFiles = new ArrayList<String>();
@@ -290,7 +292,7 @@ public class CmsSitesWebserverThread extends A_CmsReportThread {
     private void executeScript() throws IOException, InterruptedException {
 
         File script = new File(m_scriptPath);
-        List<String> params = new LinkedList<String>();
+        List<@RUntainted String> params = new LinkedList<@RUntainted String>();
         params.add(script.getAbsolutePath());
         params.addAll(m_writtenFiles);
         ProcessBuilder pb = new ProcessBuilder(params.toArray(new String[params.size()]));

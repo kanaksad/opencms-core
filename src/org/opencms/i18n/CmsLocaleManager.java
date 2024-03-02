@@ -57,6 +57,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
 
 import com.cybozu.labs.langdetect.DetectorFactory;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RPolyTainted;
 
 /**
  * Manages the locales configured for this OpenCms installation.<p>
@@ -155,7 +157,7 @@ public class CmsLocaleManager implements I_CmsEventListener {
      *
      * @return the default locale configured in <code>opencms-system.xml</code>
      */
-    public static Locale getDefaultLocale() {
+    public static @RUntainted Locale getDefaultLocale() {
 
         return m_defaultLocale;
     }

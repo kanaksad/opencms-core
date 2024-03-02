@@ -39,6 +39,7 @@ import java.io.IOException;
 import java.util.Locale;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Implements a disk cache that stores text extraction results in the RFS.<p>
@@ -65,7 +66,7 @@ public class CmsExtractionResultCache {
     private static final Log LOG = CmsLog.getLog(CmsExtractionResultCache.class);
 
     /** The name of the cache base repository folder in the RFS. */
-    private String m_rfsRepository;
+    private @RUntainted String m_rfsRepository;
 
     /**
      * Creates a new disk cache.<p>
@@ -167,7 +168,7 @@ public class CmsExtractionResultCache {
      *
      * @return the extraction result stored in the requested file in the RFS disk cache, or <code>null</code>
      */
-    public CmsExtractionResult getCacheObject(String rfsName) {
+    public CmsExtractionResult getCacheObject(@RUntainted String rfsName) {
 
         try {
             File f = new File(rfsName);

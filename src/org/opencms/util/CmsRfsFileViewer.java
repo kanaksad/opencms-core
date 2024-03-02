@@ -49,6 +49,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * The representation of a RFS file along with the settings to provide
@@ -231,7 +232,7 @@ public class CmsRfsFileViewer implements Cloneable {
      *
      * @return the amount of lines to display per page
      */
-    public int getWindowSize() {
+    public @RUntainted int getWindowSize() {
 
         return m_windowSize;
     }
@@ -390,7 +391,7 @@ public class CmsRfsFileViewer implements Cloneable {
      * @throws CmsRuntimeException if the configuration of this instance has been frozen
      * @throws CmsRfsException if the given path is invalid, does not point to a file or cannot be accessed
      */
-    public void setFilePath(String path) throws CmsRfsException, CmsRuntimeException {
+    public void setFilePath(@RUntainted String path) throws CmsRfsException, CmsRuntimeException {
 
         checkFrozen();
 
@@ -533,7 +534,7 @@ public class CmsRfsFileViewer implements Cloneable {
      * @throws CmsRuntimeException if the configuration of this instance has been frozen
      * @throws CmsRfsException if the given path is invalid
      */
-    public void setRootPath(String path) throws CmsRfsException, CmsRuntimeException {
+    public void setRootPath(@RUntainted String path) throws CmsRfsException, CmsRuntimeException {
 
         checkFrozen();
 
